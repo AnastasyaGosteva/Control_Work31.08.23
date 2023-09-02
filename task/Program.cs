@@ -28,3 +28,4 @@ void CalculatinNumberMatchingWords(string [] text, out int count)
 string [] text = {"Роман", "Ян", "Ира", "Анастасия", "Оля", "Константин"};
 CalculatinNumberMatchingWords(text, out int count);
 string [] textNew = GetNewArray(count, text);
+Console.WriteLine(String.Join(" ", textNew));
